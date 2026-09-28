@@ -13,6 +13,7 @@ header{
 
 header img{
     width: 20px;
+    margin-left: 45px;
 }
 
 .apple{
@@ -31,7 +32,7 @@ nav ul li{
 .listamain{
     display: flex;
     gap: 20px;
-    margin-left: 100px;
+    margin-left: 500px;
 }
 
 .listamain li{
@@ -43,6 +44,10 @@ nav ul li{
     display: flex;
 }
 
+h2{
+    margin-bottom: 20px;
+}
+
 .main1{
     align-items: center;
     text-align: center;
@@ -52,10 +57,15 @@ nav ul li{
     width: 250px;
     justify-content: center;
     margin-bottom: 25px;
+    margin-top: 30px;
 }
 
 h1{
     margin-bottom: 20px;
+}
+
+.gerencie{
+    font-size: 20px;
 }
 
 input{
@@ -63,20 +73,31 @@ input{
     width: 450px;
     height: 55px;
     border-radius: 10px;
+    border: none;
+    border: 1px solid black;
+}
+
+input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 .img1{
     width: 50px;
     margin-right: 400px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .texto{
     width: 500px;
-    margin-left: 390px;
+    margin-left: 410px;
     margin-bottom: 30px;
+    text-align: left;
 }
 
+span{
+    color: blue;
+}
 
 .main2 button{
     width: 220px;
@@ -96,6 +117,13 @@ input{
 
 .botao1 img{
     width: 20px;
+    margin-right: 5px;
+}
+
+.botao2{
+    margin-left: 230px;
+    font-size: 13px;
+    margin-bottom: 35px;
 }
 
 footer{
@@ -103,11 +131,23 @@ footer{
     text-align: center;
     padding-top: 20px;
     padding-left: 100px;
-    
+    padding-bottom: 20px;
 }
 
 footer p{
     font-size: 13px;
     color: #676767;
     text-align: left;
+}
+
+.footer1{
+    display: flex;
+    gap: 40px;
+    font-size: 13px;
+}
+
+.footer1 li{
+    list-style: none;
+    color: #242424;
+    margin-top: 10px;
 }
